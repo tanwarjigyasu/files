@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="128" cy="128" r="128" fill="#F5FCFE" />
+  <circle cx="16" cy="64" r="48" fill="#D1EDFC" clip-path="url(#circle-clip)" />
+  <circle cx="256" cy="192" r="96" fill="#D1EDFC" clip-path="url(#circle-clip)" />
+  <image x="56" y="64" width="128" height="128" href="https://cdn.jsdelivr.net/gh/tanwarjigyasu/files/flutter_logo.svg" />
+  <text font-size="25px" fill="#0175c2" font-family="sans-serif" font-weight="bold" letter-spacing="5" dy="-15">
+    <textPath href="#circle-text">
+      Flutter Developer
+    </textPath>
+  </text>
+  <text font-size="25px" fill="#0175c2" font-family="sans-serif" font-weight="bold" letter-spacing="5" dy="-15">
+    <textPath href="#circle-text" startOffset="50%">
+      Flutter Developer
+    </textPath>
+  </text>
+  <path id="circle-text" fill="none" d="M 128, 128 m -128, 0 a 128, 128 0 1, 0 256, 0 a 128, 128 0 1, 0 -256,0" />
+  <clipPath id="circle-clip">
+    <circle cx="128" cy="128" r="128" />
+  </clipPath>
+</svg>
